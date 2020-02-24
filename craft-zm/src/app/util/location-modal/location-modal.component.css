@@ -1,0 +1,24 @@
+.client-images, .client-images ~ p {
+  max-width: 150px;
+  margin: auto;
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+  font-family: MarkForMCNarrowW00Regular;
+}
+
+p {
+  text-align: center;
+  font-family: MarkForMCNarrowW00Regular;
+}
+
+ul li {
+  font-family: MarkForMCNarrowW00Regular;
+}
+
+.content {
+  min-width: 200px;
+}

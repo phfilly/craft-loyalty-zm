@@ -1,0 +1,44 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+    font-family: Hawk;
+    src: url(assets/TaleofHawks.ttf);
+}
+
+@font-face {
+    font-family: MarkForMCNarrowW00Regular;
+    src: url(assets/MarkForMCNarrowW00Regular.woff2);
+}
+
+@font-face {
+    font-family: MarkOffcProLight;
+    src: url(assets/MarkOffcProLight.woff2);
+}
+
+p, h1, h2, h3, h4, h5 {
+    font-family: MarkForMCNarrowW00Regular;
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: capitalize;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.black-text {
+  color: #000;
+}
+
+.white-text {
+  color: #fff;
+}

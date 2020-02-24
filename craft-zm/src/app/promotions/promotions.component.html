@@ -1,0 +1,27 @@
+<app-content-main
+  title="Merci Mauritius"
+  slogan="The possibilities with Mastercard are endless."
+  background="images/header.jpg"
+  class="main-title"></app-content-main>
+
+<div class="rewards-container">
+  <div class="center-content">
+    <h1>Mastercard Rewards</h1>
+    <h4>Thank you for your loyalty, click on a category to reveal exciting rewards & gifts</h4>
+  </div>
+
+  <div class="card-container" [ngClass]="{'card-container-mobile': isMobileView }">
+    <div *ngFor="let card of data">
+      <div class="promotions-card" (click)="routeTo(card['option'])">
+        <div [ngStyle]="{'background-image': 'url(' + '../assets/images/'+ card['image'] + ')'}" class="promotion-image"></div>
+        <div class="promotions-content">
+          <img [src]="'../assets/'+ card['icon']" class="card-icon"/>
+          <h2>{{ card['option'] }}</h2>
+          <p>
+            {{ card['text'] }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

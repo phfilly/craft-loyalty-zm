@@ -1,0 +1,40 @@
+.main-title {
+  font-size: 80px;
+  font-family: Hawk;
+}
+
+.sub-page-title {
+  font-size: 80px;
+  font-family: MarkForMCNarrowW00Regular;
+}
+
+.slider-background {
+    background-size: 100%;
+    min-height: 540px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.slider-background-text {
+    margin: auto;
+    margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.extra-margin {
+  margin-top: -48px !important;
+}
+
+.slider-background-mobile {
+    background-size: cover;
+}
+
+.slogan {
+  width: 100%;
+  padding-bottom: 25px;
+}

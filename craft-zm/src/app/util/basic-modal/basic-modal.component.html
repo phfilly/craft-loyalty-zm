@@ -1,0 +1,198 @@
+<h2 mat-dialog-title>{{data.headingText}}</h2>
+<mat-dialog-content class="mat-typography">
+  <div style="text-align: center;">
+    <img [src]="'../../assets/Logos/' + data['link']" class="client-images"/>
+  </div>
+
+  <div *ngIf="data['name'] === 'Air Mauritius'">
+    <h3>THE OFFER</h3>
+    <p>Use your Mastercard and qualify for a 10 % discount on the entrance fee</p>
+    <h3>CARDHOLDER JOURNEY</h3>
+    <ul>
+      <li>Customer requests offer based on referring to Priceless and/or MasterCard for U app </li>
+      <li>Customer presents the 10% voucher coupon displayed on mastercardmu.com under Mauritius Aquarium</li>
+      <li>Cashier / Staff member fulfils offer based on presentation of coupon </li>
+    </ul>
+    <h3>TERMS & CONDITIONS</h3>
+    <ul>
+      <li>The Benefit(s) apply to all Mauritian issued MasterCards. The Partner is entitled to valid the cardholder by confirming local residency and/or nationality. </li>
+      <li>The offer is valid for 6 months</li>
+      <li>The Benefit(s) is not valid on promotional offers.</li>
+    </ul>
+  </div>
+
+  <div *ngIf="data['name'] === 'Shoe City'">
+    <h3>THE OFFER</h3>
+    <p>Use your Mastercard and qualify for a 10% discount on your purchase at Shoe City</p>
+    <h3>CARDHOLDER JOURNEY</h3>
+    <ul>
+      <li>Quote Mastercard, Priceless offers at Shoe City</li>
+      <li>Present your Mastercard to make the payment</li>
+      <li>The staff member will apply the offer based on the presentation of card</li>
+    </ul>
+    <h3>TERMS & CONDITIONS</h3>
+    <ul>
+      <li>The Benefit(s) apply to all issued Mastercards.</li>
+      <li>The offer is valid from 1 December 2019 to 30 September 2020.</li>
+      <li>The Benefit(s) is not valid on promotional offers.</li>
+    </ul>
+  </div>
+
+  <div *ngIf="data['name'] === 'Garage Inn'">
+    <h3>THE OFFER</h3>
+    <p>Pay with your Mastercard and receive a free car shampoo</p>
+    <h3>CARDHOLDER JOURNEY</h3>
+    <ul>
+      <li>Quote Mastercard, Priceless offers at Garage Inn</li>
+      <li>Present your Mastercard to make the payment</li>
+      <li>The staff member will apply the offer based on the presentation of card</li>
+    </ul>
+    <h3>TERMS & CONDITIONS</h3>
+    <ul>
+      <li>Offer available when presenting a valid MasterCard</li>
+      <li>The offer is valid from 1 October 2019 to 30 September 2020.</li>
+      <li>The Benefit(s) is not valid on promotional offers.</li>
+    </ul>
+  </div>
+
+  <div *ngIf="data['name'] === 'Linkham Services'">
+    <h3>THE OFFER</h3>
+    <p>Use your Mastercard and qualify for the following:</p>
+    <ul>
+      <li>10% off travel insurance</li>
+      <li>10% off retail protection insurance</li>
+      <li>10% off  purchase protection</li>
+      <li>10% off in-patient cash benefit insurance</li>
+      <li>10% off funeral cover</li>
+      <li>10% off short term personal accident</li>
+      <li>5% off local medical insurance</li>
+      <li>5% off expat medical cover</li>
+    </ul>
+    <h3>CARDHOLDER JOURNEY</h3>
+    <ul>
+      <li>View the offer on MasterCard channels (apps / websites) and click on the offer.</li>
+      <li>Contact the Call Centre on this number: 230 405 5808</li>
+      <li>Request the Mastercard benefit and the call centre agent will fulfil the offer.</li>
+      <li>Pay using your Mastercard.</li>
+    </ul>
+
+    <h3>TERMS & CONDITIONS</h3>
+    <ul>
+      <li>The offer is valid from 1 December 2019 to 30 September 2020.</li>
+      <li>The Benefit(s) is not valid on promotional offers.</li>
+      <li>The Benefit(s) apply to all issued Mastercards.</li>
+      <li>The Benefit(s) is only applicable to new policies</li>
+    </ul>
+  </div>
+
+  <div *ngIf="data['name'] === 'Strike City'">
+    <h3>THE OFFER</h3>
+    <p>Use your Mastercard and qualify for the following at Strike City:
+      <br>
+      10% off food and drinks bill exceeding Rs1,000 OR Pay for 2 bowling games and get a free soft drink
+    </p>
+    <h3>CARDHOLDER JOURNEY</h3>
+    <ul>
+      <li>Quote Mastercard, Priceless offers in store</li>
+      <li>Present your Mastercard to make the payment</li>
+      <li>The staff member will apply the offer based on the presentation of card</li>
+    </ul>
+    <h3>TERMS & CONDITIONS</h3>
+    <ul>
+      <li>The offer is valid from 1 October 2019 to 30 September 2020.</li>
+      <li>The Benefit(s) is not valid on promotional offers.</li>
+      <li>The Benefit(s) apply to all issued Mastercard’s</li>
+      <li>The Benefit(s) is not valid on promotional offers.</li>
+      <li>The Benefit(s) is only applicable from Monday to Thursday between 10am and midnight</li>
+      <li>The Benefit(s) is not available on public holidays</li>
+      <li>The Benefit(s) is valid for individual MasterCard holders only and does not apply to corporate team building events</li>
+    </ul>
+  </div>
+
+  <div *ngIf="data['name'] === 'Tamassa'">
+    <h3>THE OFFER</h3>
+    <p>Use your Mastercard and get 10% of Spa treatments</p>
+    <h3>CARDHOLDER JOURNEY</h3>
+    <ul>
+      <li>Quote Mastercard, Priceless offers at relevant hotels</li>
+      <li>Present your Mastercard to make the payment</li>
+      <li>The staff member will apply the offer based on the presentation of card</li>
+    </ul>
+    <h3>TERMS & CONDITIONS</h3>
+    <ul>
+      <li>The Benefit(s) apply to all Mauritian issued Mastercards.<br>
+        The Partner is entitled to valid the cardholder by confirming local residency and/or nationality.
+      </li>
+      <li>The offer is valid from 1 October 2019 to 30 September 2020.</li>
+      <li>The Benefit(s) is not valid on promotional offers</li>
+    </ul>
+  </div>
+
+  <div *ngIf="data['name'] === 'Salt'">
+    <h3>THE OFFER</h3>
+    <p>Use your Mastercard and qualify for the following:</p>
+    <ul>
+      <li>5% discount on Spa treatments</li>
+      <li>10% discount for dinners in main restaurant</li>
+      <li>or 5% discount for dinners in A La Carte restaurant at Salt of Palmar Mauritius</li>
+    </ul>
+    <h3>CARDHOLDER JOURNEY</h3>
+    <p>Add the items you would like to purchase and proceed to checkout</p>
+    <ul>
+      <li>Quote Mastercard, Priceless offers at relevant hotels</li>
+      <li>Present your Mastercard to make the payment</li>
+      <li>The staff member will apply the offer based on the presentation of card</li>
+    </ul>
+
+    <h3>TERMS & CONDITIONS</h3>
+    <ul>
+      <li>The Benefit(s) apply to all Mauritian issued Mastercards.<br>The Partner is entitled to valid the cardholder by confirming local residency and/or nationality.</li>
+      <li>The offer is valid from 1 October 2019 to 30 September 2020.</li>
+      <li>The Benefit(s) is not valid on promotional offers.</li>
+    </ul>
+  </div>
+
+  <div *ngIf="data['name'] === 'Titanium Travel Club'">
+    <h3>THE OFFER</h3>
+    <p>Pay for your air tickets with your Mastercard and receive a free bowling ticket at Titanium Travel Club</p>
+    <h3>CARDHOLDER JOURNEY</h3>
+    <ul>
+      <li>Quote Mastercard, Priceless offers at relevant hotels</li>
+      <li>Present your Mastercard to make the payment</li>
+      <li>The staff member will apply the offer based on the presentation of card</li>
+    </ul>
+    <h3>TERMS & CONDITIONS</h3>
+    <ul>
+      <li>Offer available when presenting a valid MasterCard</li>
+      <li>The offer is valid from 1 October 2019 to 30 September 2020.</li>
+      <li>The Benefit(s) is not valid on promotional offers.</li>
+    </ul>
+  </div>
+
+  <div *ngIf="data['name'] === 'The Lux Collective'">
+    <h3>THE OFFER</h3>
+    <p>Use your Mastercard and qualify for the following:</p>
+    <ul>
+      <li>5% discount on Spa treatments</li>
+      <li>10% discount for dinners in main restaurants</li>
+      <li>5% discount for dinners in A La Carte restaurant</li>
+    </ul>
+    <h3>CARDHOLDER JOURNEY</h3>
+    <ul>
+      <li>Quote Mastercard, Priceless offers at relevant hotels</li>
+      <li>Present your Mastercard to make the payment</li>
+      <li>The staff member will apply the offer based on the presentation of card</li>
+    </ul>
+    <h3>TERMS & CONDITIONS</h3>
+    <ul>
+      <li>The Benefit(s) apply to all Mauritian issued Mastercards.<br>The Partner is entitled to valid the cardholder by confirming local residency and/or nationality.</li>
+      <li>The offer is valid from 1 October 2019 to 30 September 2020</li>
+      <li>The Benefit(s) is not valid on promotional offers</li>
+    </ul>
+  </div>
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button [mat-dialog-close]="true" (click)="close()">{{data.buttonText}}</button>
+  <button mat-button cdkFocusInitial (click)="view()">View</button>
+</mat-dialog-actions>

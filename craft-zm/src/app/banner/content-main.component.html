@@ -1,0 +1,8 @@
+<div class="slider-background"
+  [ngClass]="{'slider-background-mobile': isMobileView }"
+  [ngStyle]="{'background-image': 'url(' + bgUrl + ')'}">
+  <div class="slider-background-text">
+    <h1 [ngClass]="class">{{ title }}</h1>
+    <h3 class="slogan">{{ slogan }}</h3>
+  </div>
+</div>

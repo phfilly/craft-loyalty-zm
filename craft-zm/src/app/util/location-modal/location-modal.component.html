@@ -1,0 +1,16 @@
+<h2 mat-dialog-title>{{data.headingText}}</h2>
+<mat-dialog-content class="mat-typography">
+  <div style="text-align: center;">
+    <img [src]="'../../assets/Logos/' + data['link']" class="client-images"/>
+  </div>
+  <div class="content">
+    <h3>LOCATION</h3>
+    <p>Garage Inn<br/>
+    Velvindron Street<br/>
+    Pailles<br/>
+    Tel : 2861777</p>
+  </div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button [mat-dialog-close]="true" (click)="close()">{{data.buttonText}}</button>
+</mat-dialog-actions>

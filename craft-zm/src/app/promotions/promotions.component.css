@@ -1,0 +1,72 @@
+.rewards-container {
+  background-color: #DCDADB;
+  padding: 50px 0px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.mat-card {
+  background: none;
+}
+
+.promotion-image {
+  height: 400px;
+  border-radius: 100px;
+  margin: 10px 0px;
+  background-size: cover;
+  background-position: center;
+  padding: 10px;
+  box-shadow: 10px 6px 19px -14px rgba(0,0,0,0.68);
+}
+
+.card-container:hover {
+  cursor: pointer;
+}
+
+.card-icon {
+  max-width: 40px;
+  padding: 5px;
+}
+
+.card-container-mobile {
+  display: block;
+  padding: 5px 18px;
+  text-align: center;
+}
+
+.promotions-content {
+  text-align: center;
+  padding: 15px;
+}
+
+.promotions-content > h2 {
+  margin: 2px;
+  font-size: 40px;
+}
+
+.promotions-content > p {
+  margin: 2px;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.topic-image {
+  max-width: 250px;
+}
+
+.promotions-card {
+  max-width: 330px;
+  margin: 10px;
+}
+
+.promotions-card:hover {
+  cursor: pointer;
+}

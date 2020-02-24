@@ -1,0 +1,82 @@
+.footer-container  {
+  background-color: #131312;
+  padding: 50px !important;
+  color: #fff;
+}
+
+.card-container > div {
+  max-width: 45%;
+}
+
+.footer-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-title {
+  font-family: MarkOffcProLight;
+}
+
+.read-more {
+  font-family: MarkForMCNarrowW00Regular;
+  font-weight: 700;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.priceless-logo {
+  padding-bottom: 15px;
+}
+
+.footer-link {
+  padding: 5px 0px;
+  font-size: 14px;
+}
+
+.footer-text {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.copyright-text {
+  background-color: #131312;
+  color: gray;
+  font-size: 12px;
+  text-align: left;
+  padding: 15px 0px;
+  font-family: MarkForMCNarrowW00Regular;
+  text-align: left;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-container-mobile {
+  display: block;
+  padding: 5px 18px;
+  text-align: left;
+}
+
+div.card-container-mobile > div {
+  max-width: max-content;
+  margin: 20px 0px;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.more-arrow-white {
+  display: inline-block;
+  position: relative;
+  top: 6px;
+  left: 5px;
+  width: 15px;
+  height: 20px;
+  background: url(../../assets/arrow.png) 0 no-repeat;
+  background-size: 100% auto;
+  font-size: 12px;
+}

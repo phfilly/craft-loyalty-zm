@@ -1,0 +1,42 @@
+.slider-background-mobile {
+  background-size: cover;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+mat-toolbar.mat-primary {
+  background: #fff !important;
+  color: #000;
+}
+
+.mat-toolbar-row {
+  height: 85px;
+}
+
+.logo {
+  max-width: 85px;
+}
+
+.top-logo {
+  top: 10px;
+  position: relative;
+}
+
+.logo:hover, .top-header:hover {
+  cursor: pointer;
+}
+
+.hr-line {
+  background-color: #6E6B60;
+  height: 5px;
+}
+
+.menu-items > a:not(:first-child) {
+  padding: 2px 10px;
+}
+
+.menu-items > a{
+  font-size: 14px;
+}

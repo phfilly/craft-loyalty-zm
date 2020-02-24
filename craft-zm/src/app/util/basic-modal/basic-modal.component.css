@@ -1,0 +1,40 @@
+.client-images, .client-images ~ p {
+  max-width: 150px;
+  margin: auto;
+  text-align: center;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
+  font-family: MarkForMCNarrowW00Regular;
+}
+
+p {
+  text-align: center;
+  font-family: MarkForMCNarrowW00Regular;
+}
+
+ul li {
+  font-family: MarkForMCNarrowW00Regular;
+}
+
+.pdf-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pdf-options > a {
+  padding: 10px;
+  background-color: #eee;
+  text-decoration: none;
+  color: #000;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+
+.pdf-options > a:hover {
+text-decoration: underline;
+}
