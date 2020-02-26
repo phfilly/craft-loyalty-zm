@@ -36,7 +36,7 @@ export class ContentComponent extends ResponsiveBaseComponent
 
     this.router.events.subscribe(route => {
       if (route instanceof NavigationEnd) {
-        if (route.url.includes('air-mauritius')) {
+        if (route.url.includes('rainbow-tourism-group')) {
           this.clientData = this.filterSubProduct();
           this.isSubProduct = true;
           this.text = 'options';
