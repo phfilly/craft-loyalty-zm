@@ -51,6 +51,10 @@ export class ContentComponent extends ResponsiveBaseComponent
 
   ngOnInit() {}
 
+  routeTo(item: string) {
+    this.router.navigate([`${item}`]);
+  }
+
   filter() {
     return this.data.filter(item => item['key'] === this.titleName)[0][
       'clients'

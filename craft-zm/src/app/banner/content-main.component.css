@@ -11,7 +11,7 @@
 .slider-background {
     background-size: 100%;
     min-height: 540px;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     display: flex;
 }
@@ -37,4 +37,6 @@
 .slogan {
   width: 100%;
   padding-bottom: 25px;
+  position: relative;
+  top: -45px;
 }
