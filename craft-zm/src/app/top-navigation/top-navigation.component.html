@@ -15,7 +15,9 @@
 
     </div>
     <div class="spacer"></div>
-    <img class="logo" src="../../assets/mc.png"/>
+    <ng-container *ngIf="!isMobileView">
+      <p class="powered-by">Powered by</p><img class="logo" src="../../assets/Logos/craft.jpg"/>
+    </ng-container>
   </mat-toolbar-row>
 </mat-toolbar>
 

@@ -28,19 +28,18 @@ mat-toolbar.mat-primary {
   cursor: pointer;
 }
 
-.top-navigation-container {
-  display: flex;
-}
-
 .hr-line {
   background-color: #6E6B60;
   height: 5px;
 }
 
+.powered-by {
+  font-size: 14px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+
 .menu-items {
-  position: relative;
-  top: 10px;
-  padding-left: 25px;
   font-family: MarkForMCNarrowW00Regular;
 }
 
