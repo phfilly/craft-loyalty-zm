@@ -40,3 +40,10 @@
   position: relative;
   top: -45px;
 }
+
+.main-container {
+  padding-top: 10px;
+  background-color: #aaaaaab3;
+  position: relative;
+  top: 10px;
+}

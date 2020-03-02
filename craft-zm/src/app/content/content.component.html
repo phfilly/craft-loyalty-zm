@@ -9,6 +9,7 @@
     <div class="client-container"  [ngClass]="{'client-container-mobile': isMobileView }">
       <ng-container>
         <div *ngFor="let client of clientData" (click)="open(client)">
+          <p *ngIf="isSubProduct && client.name" class="title">{{ client['name'] }}</p>
           <img [src]="'../../assets/Logos/' + client['link']" class="client-images"/>
             <p>
               <img *ngIf="client.textAvatar" [src]="client.textAvatar" class="text-avatar"/>{{ client['text'] }}
@@ -19,9 +20,9 @@
     <div *ngIf="isSubProduct">
       <h3 class="center-align">Customer Journey</h3>
       <ul>
-        <li>Mastercard cardholder will email on amh@airmauritiusholidays.com and qualify for discount when requesting offer</li>
-        <li>This will direct them to an Air Mauritius consultant who will service the booking from start to end</li>
-        <li>Pay over the phone using your Mastercard</li>
+        <li>Cardholder selects hotel & checks out on website or mobile app (Gateway Stream)</li>
+        <li>At check out the Cardholder pays with a Mastercard</li>
+        <li>Cardholder receives 5% discount</li>
       </ul>
     </div>
     <p class="center-align" *ngIf="!isSubProduct"><i>Click on the company logo's for T&C's</i></p>

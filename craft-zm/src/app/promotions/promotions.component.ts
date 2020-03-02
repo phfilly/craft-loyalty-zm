@@ -19,19 +19,6 @@ export class PromotionsComponent extends ResponsiveBaseComponent
       image: 'offset_347410-min.jpg',
       text:
         'Visiting to that spot you have always dreamed of has just become possible'
-    },
-    {
-      option: 'lifestyle',
-      icon: 'restaurant.png',
-      image: 'pool.jpg',
-      text: 'Relax! Take control of your life & time and spend it in style'
-    },
-    {
-      option: 'retail',
-      icon: 'shopping-cart.png',
-      image: 'shopping-cover.jpg',
-      text:
-        'Treat yourself to something that will make you look or feel fabulous'
     }
   ];
   constructor(
