@@ -22,7 +22,7 @@ export const DATA = [
   {
     key: 'accommodation',
     slogan: '',
-    background: 'images/travel.jpg',
+    background: 'images/travel-2.jpg',
     clients: [
       {
         link: 'offer1.PNG',
@@ -92,7 +92,7 @@ export const DATA = [
   {
     key: 'dining',
     slogan: '',
-    background: 'images/family-min.jpg',
+    background: 'images/travel-2.jpg',
     clients: [
       {
         link: 'offer10.jpg',

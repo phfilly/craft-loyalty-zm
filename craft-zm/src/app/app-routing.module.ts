@@ -7,7 +7,7 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: '/benefits'
+    redirectTo: '/benefits/travel'
   },
   {
     path: 'benefits',
