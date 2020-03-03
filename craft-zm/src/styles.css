@@ -18,12 +18,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     src: url(assets/MarkOffcProLight.woff2);
 }
 
-p, h1, h2, h3, h4, h5 {
+p, h1, h2, h3, h4, h5, li {
     font-family: MarkForMCNarrowW00Regular;
 }
 
 h1, h2, h3, h4, h5 {
   text-transform: capitalize;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 100;
 }
 
 .container {

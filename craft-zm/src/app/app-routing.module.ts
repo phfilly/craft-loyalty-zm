@@ -27,11 +27,11 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'retail',
+        path: 'dining',
         component: ContentComponent
       },
       {
-        path: 'lifestyle',
+        path: 'accommodation',
         component: ContentComponent
       }
     ]

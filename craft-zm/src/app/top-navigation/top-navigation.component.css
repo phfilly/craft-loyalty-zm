@@ -16,7 +16,7 @@ mat-toolbar.mat-primary {
 }
 
 .logo {
-  max-width: 65px;
+  max-width: 50px;
 }
 
 .top-logo {
@@ -34,7 +34,7 @@ mat-toolbar.mat-primary {
 }
 
 .powered-by {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 700;
   padding-right: 10px;
 }

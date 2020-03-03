@@ -14,20 +14,13 @@ export const DATA = [
       {
         link: 'Flight_Centre_Canada_Logo-wikipedia.png',
         name: 'Flight Centre',
-        text:
-          'Pay with your Mastercard and get 5% off any package or flight for Zimbabwe',
+        text: 'Pay with your Mastercard and get 5% off any package or flight',
         url: 'https://www.flightcentre.co.za/'
-      },
-      {
-        link: 'RTG.png',
-        name: 'Rainbow Tourism Group',
-        text: '5% discount on accommodation',
-        url: '/#/benefits/travel/rainbow-tourism-group'
       }
     ]
   },
   {
-    key: 'travel',
+    key: 'accommodation',
     slogan: '',
     background: 'images/travel.jpg',
     clients: [
@@ -97,15 +90,16 @@ export const DATA = [
     ]
   },
   {
-    key: 'lifestyle',
-    slogan: '',
-    background: 'images/lifestyle.jpg',
-    clients: []
-  },
-  {
-    key: 'retail',
+    key: 'dining',
     slogan: '',
     background: 'images/family-min.jpg',
-    clients: []
+    clients: [
+      {
+        link: 'offer10.jpg',
+        name: 'Kombahari Restaunrant',
+        text:
+          'The best Afro-Asian fusion dining experience and only live cooking restaurant in the country.'
+      }
+    ]
   }
 ];
