@@ -12,7 +12,7 @@ export const DATA = [
         url: 'https://www.cruises.co.za/'
       },
       {
-        link: 'Flight_Centre_Canada_Logo-wikipedia.png',
+        link: 'Flight_Centre.jpg',
         name: 'Flight Centre',
         text: 'Pay with your Mastercard and get 5% off any package or flight',
         url: 'https://www.flightcentre.co.za/'
