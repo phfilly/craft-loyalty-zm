@@ -24,12 +24,7 @@ export class BasicModalComponent implements OnInit {
   }
 
   view() {
-    if (this.data.name === 'Garage Inn') {
-      this.closePopup.emit();
-      this.openLocationModal();
-    } else {
-      window.open(this.data.url, '_blank');
-    }
+    window.open(this.data.url, '_self');
   }
 
   openLocationModal() {

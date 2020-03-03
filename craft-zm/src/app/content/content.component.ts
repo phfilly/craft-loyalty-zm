@@ -29,7 +29,7 @@ export class ContentComponent extends ResponsiveBaseComponent
     private router: Router
   ) {
     super(breakpointObserver, [DEVICE_LIST.mobile]);
-    this.titleName = this.route.snapshot.routeConfig.path;
+    this.titleName = 'travel';
     this.background = this.data.find(items => items.key === this.titleName)[
       'background'
     ];

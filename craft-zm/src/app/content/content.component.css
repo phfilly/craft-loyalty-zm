@@ -11,8 +11,8 @@
 }
 
 .client-images, .client-images ~ p {
-  max-width: 350px;
-  height: 130px;
+  max-width: 330px;
+  height: 90px;
   text-align: center;
 }
 
@@ -23,6 +23,10 @@
   justify-content: space-around;
   align-items: center;
   text-align: center;
+}
+
+.client-container > div {
+  margin: 15px 0px;
 }
 
 .client-container > div:hover {
@@ -36,7 +40,6 @@
 .text-avatar {
   width: 50px;
   height: 50px;
-  border-radius: 25px;
   float: left;
   margin: 5px;
 }

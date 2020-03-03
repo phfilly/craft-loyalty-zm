@@ -14,7 +14,7 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        component: PromotionsComponent
+        component: ContentComponent
       },
       {
         path: 'travel',
