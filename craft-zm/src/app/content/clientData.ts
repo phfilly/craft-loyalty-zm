@@ -110,6 +110,12 @@ export const DATA = [
         name: 'Kombahari Restaurant',
         text:
           'The best Afro-Asian fusion dining experience and only live cooking restaurant in the country.'
+      },
+      {
+        link: 'restaurant2.jpeg',
+        name: 'Alo Alo',
+        text:
+          'A Home away from Home Experience surrounded by a beautiful tranquil garden'
       }
     ]
   }

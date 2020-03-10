@@ -7,14 +7,14 @@ const routes: Routes = [
   {
     path: '',
     pathMatch: 'full',
-    redirectTo: '/benefits/travel'
+    redirectTo: '/benefits'
   },
   {
     path: 'benefits',
     children: [
       {
         path: '',
-        component: ContentComponent
+        component: PromotionsComponent
       },
       {
         path: 'travel',

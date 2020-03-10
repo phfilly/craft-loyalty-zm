@@ -12,7 +12,7 @@
 
 .client-images, .client-images ~ p {
   max-width: 330px;
-  height: 90px;
+  height: 125px;
   text-align: center;
 }
 
