@@ -7,10 +7,10 @@
 
   <div class="container">
     <p class="center-align"><i>Use your Mastercard and qualify for amazing discounts. Click on the {{ text }} below for more information on the offer</i></p>
-    <div class="client-container"  [ngClass]="{'client-container-mobile': isMobileView }">
+    <div class="client-container" [ngClass]="{'client-container-mobile': isMobileView }">
       <ng-container>
         <div *ngFor="let client of clientData" (click)="open(client)">
-          <p *ngIf="isSubProduct && client.name" class="title">{{ client['name'] }}</p>
+          <p *ngIf="(titleName === 'accommodation' || titleName === 'dining') && client.name" class="title">{{ client['name'] }}</p>
           <img [src]="'../../assets/Logos/' + client['link']" class="client-images"/>
             <p>
               {{ client['text'] }}

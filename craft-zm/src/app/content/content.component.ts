@@ -36,15 +36,9 @@ export class ContentComponent extends ResponsiveBaseComponent
 
     this.router.events.subscribe(route => {
       if (route instanceof NavigationEnd) {
-        if (route.url.includes('rainbow-tourism-group')) {
-          this.clientData = this.filterSubProduct();
-          this.isSubProduct = true;
-          this.text = 'options';
-        } else {
-          this.clientData = this.filter();
-          this.isSubProduct = false;
-          this.text = 'partners';
-        }
+        this.clientData = this.filter();
+        this.isSubProduct = false;
+        this.text = 'partners';
       }
     });
   }

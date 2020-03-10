@@ -62,6 +62,10 @@ li {
   text-align: left;
 }
 
+.menu-items > a:first-child {
+  padding: 2px 15px 0px 5px;
+}
+
 .menu-items > a:not(:first-child) {
   padding: 2px 15px;
 }

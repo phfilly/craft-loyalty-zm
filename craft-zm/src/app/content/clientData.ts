@@ -96,7 +96,18 @@ export const DATA = [
     clients: [
       {
         link: 'offer10.jpg',
-        name: 'Kombahari Restaunrant',
+        name: 'Le Rendezvous',
+        text:
+          'Situated on the Mezzanine Floor, the coffee shop offers a wide range of coffee and teas along with a selection of light meals, cakes and pastries. The coffee shop is ideal for relaxing with family and friends or for a business meeting'
+      },
+      {
+        link: 'restaurant.jpeg',
+        name: 'Mojos',
+        text: "Come to Mojo's and eat as much meat as you want"
+      },
+      {
+        link: 'Kombahari.PNG',
+        name: 'Kombahari Restaurant',
         text:
           'The best Afro-Asian fusion dining experience and only live cooking restaurant in the country.'
       }
