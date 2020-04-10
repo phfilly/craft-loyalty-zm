@@ -11,14 +11,13 @@
 .slider-background {
     background-size: 100%;
     min-height: 540px;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
 }
 
 .slider-background-text {
     margin: auto;
-    margin-bottom: 0;
     color: #fff;
     text-align: center;
     display: flex;
