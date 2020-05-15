@@ -1,9 +1,8 @@
 <div class="background">
   <app-content-main
-  title="Hello Zimbabwe"
-  slogan="The possibilities with Mastercard are endless."
-  background="images/header.jpg"
-  class="main-title"></app-content-main>
+  [title]="titleName"
+  [background]="background"
+  class="white-text sub-page-title"></app-content-main>
 
   <div class="container">
     <p class="center-align"><i>Use your Mastercard and qualify for amazing discounts. Click on the {{ text }} below for more information on the offer</i></p>
@@ -11,7 +10,7 @@
       <ng-container>
         <div *ngFor="let client of clientData" (click)="open(client)">
           <p *ngIf="(titleName === 'accommodation' || titleName === 'dining') && client.name" class="title">{{ client['name'] }}</p>
-          <img [src]="'../../assets/Logos/' + client['link']" class="client-images"/>
+          <img [src]="'../../assets/logos/' + client['link']" class="client-images"/>
             <p>
               {{ client['text'] }}
             </p>

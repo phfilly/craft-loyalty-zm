@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-promotions',
   templateUrl: './promotions.component.html',
-  styleUrls: ['./promotions.component.css']
+  styleUrls: ['./promotions.component.css'],
 })
 export class PromotionsComponent extends ResponsiveBaseComponent
   implements OnInit {
@@ -16,23 +16,23 @@ export class PromotionsComponent extends ResponsiveBaseComponent
     {
       option: 'travel',
       icon: 'plane.png',
-      image: 'offset_347410-min.jpg',
+      image: 'travel-option.jpg',
       text:
-        'Visiting to that spot you have always dreamed of has just become possible'
+        'Visiting to that spot you have always dreamed of has just become possible',
     },
     {
       option: 'accommodation',
       icon: 'house.png',
-      image: 'pool.jpg',
-      text: 'Relax! Take control of your life & time and spend it in style'
+      image: 'accommodation-option.jpg',
+      text: 'Relax! Take control of your life & time and spend it in style',
     },
     {
       option: 'dining',
       icon: 'restaurant.png',
-      image: 'shopping-cover.jpg',
+      image: 'dining-option.jpg',
       text:
-        'Treat yourself or someone who enjoys great quality food and experiences'
-    }
+        'Treat yourself or someone who enjoys great quality food and experiences',
+    },
   ];
   constructor(
     public breakpointObserver: BreakpointObserver,
@@ -56,8 +56,8 @@ export class PromotionsComponent extends ResponsiveBaseComponent
       data: {
         headingText: 'Example',
         bodyText: 'Example Text',
-        buttonText: 'Close'
-      }
+        buttonText: 'Close',
+      },
     });
 
     dialogRef.componentInstance.closePopup.subscribe(() => {
