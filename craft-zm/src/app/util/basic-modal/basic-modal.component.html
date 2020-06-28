@@ -22,7 +22,7 @@
 
   <div *ngIf="data['name'] === 'Health Spas'">
     <h3>THE OFFER</h3>
-    <p>Pay with your MasterCard and receive 10% off your Health spa voucher (redeemable at any of the 2 spas affiliated to Health Spa) </p>
+    <p>Pay with your MasterCard and receive 10% off your Health spa voucher - redeemable at <a href="https://healthspas.co.za/find-a-spa/details/amras_health_spa/midlands/spa_info/1334" target="_blank">Amara’s Health Spa</a> AND <a href="https://healthspas.co.za/find-a-spa/details/maminex_massage_spa/midlands/spa_info/1335" target="_blank">Maminex Massage Spa</a></p>
     <h3>CUSTOMER JOURNEY</h3>
     <ul>
       <li>Customer selects products & checks out</li>
@@ -396,5 +396,5 @@
 </mat-dialog-content>
 <mat-dialog-actions align="end">
   <button mat-button [mat-dialog-close]="true" (click)="close()">{{data.buttonText}}</button>
-  <button mat-button cdkFocusInitial (click)="view()">View</button>
+  <button mat-button cdkFocusInitial (click)="view()" *ngIf="data.url">View</button>
 </mat-dialog-actions>

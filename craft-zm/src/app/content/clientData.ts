@@ -21,7 +21,7 @@ export const DATA = [
         link: 'Health Spa Logo.png',
         name: 'Health Spas',
         text: 'Pay with your MasterCard and receive 10% off your Health spa voucher (redeemable at any of the 2 spas affiliated to Health Spa) ',
-        url: 'https://healthspas.co.za',
+        url: null,
       },
     ],
   },
