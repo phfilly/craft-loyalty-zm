@@ -26,14 +26,18 @@ h1, h2, h3, h4, h5 {
   text-transform: capitalize;
 }
 
+ul {
+  margin-left: -15px;
+}
+
 li {
   font-size: 16px;
   font-weight: 100;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .center-align {
