@@ -18,7 +18,7 @@ export const DATA = [
         url: 'https://www.flightcentre.co.za/',
       },
       {
-        link: 'Health Spa Logo.png',
+        link: 'health-spa-logo.jpg',
         name: 'Health Spas',
         text: 'Pay with your MasterCard and receive 10% off your Health spa voucher (redeemable at any of the 2 spas affiliated to Health Spa) ',
         url: null,
