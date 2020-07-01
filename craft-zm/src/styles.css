@@ -84,3 +84,7 @@ li {
   text-decoration: underline;
   cursor: pointer;
 }
+
+.mat-dialog-container {
+  max-width: 800px;
+}
