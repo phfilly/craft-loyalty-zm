@@ -6,6 +6,7 @@
 .sub-page-title {
   font-size: 80px;
   font-family: MarkForMCNarrowW00Regular;
+  word-wrap: anywhere;
 }
 
 .slider-background {

@@ -68,6 +68,7 @@ export class ContentComponent extends ResponsiveBaseComponent
       window.open(client.pdf, '_blank');
     } else {
       const dialogRef = this.modalDialog.open(BasicModalComponent, {
+        width: '600px',
         disableClose: false,
         hasBackdrop: true,
         autoFocus: true,

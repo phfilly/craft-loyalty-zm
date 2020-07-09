@@ -50,6 +50,7 @@ export class PromotionsComponent extends ResponsiveBaseComponent
 
   open() {
     const dialogRef = this.modalDialog.open(BasicModalComponent, {
+      width: '600px',
       disableClose: false,
       hasBackdrop: true,
       autoFocus: true,

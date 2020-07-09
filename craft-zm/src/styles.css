@@ -41,7 +41,7 @@ li {
 }
 
 .center-align {
-  text-align: center;
+  text-align: center !important;
 }
 
 .black-text {
