@@ -1,5 +1,5 @@
 .client-images, .client-images ~ p {
-  max-width: 500px;
+  max-width: 258px;
   margin: auto;
   text-align: center;
 }
@@ -17,6 +17,7 @@ p {
 
 ul li {
   font-family: MarkForMCNarrowW00Regular;
+  word-wrap: anywhere;
 }
 
 .pdf-options {
