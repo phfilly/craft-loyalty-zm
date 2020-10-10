@@ -31,7 +31,7 @@ export const DATA = [
     background: 'images/travel-main.jpg',
     clients: [
       {
-        link: 'Best of Both.png',
+        link: '../images/flight-centre/Sun City Cabanas.jpg',
         id: 1,
         name: 'Flight Centre',
         text: 'Sun City Cabanas Weekend Rate | 2 Nights at the 3-star Sun City Cabanas Hotel - Weekend',
@@ -39,7 +39,7 @@ export const DATA = [
         textAvatar: '../../assets/bird.png'
       },
       {
-        link: 'Cape Town.jpg',
+        link: '../images/flight-centre/Sun City Cabanas pool 2.jpg',
         id: 2,
         name: 'Flight Centre',
         text: 'Sun City Cabanas Mid-week rate | 2 Nights at the 3-star Sun City Cabanas Hotel mid-week',
@@ -47,7 +47,7 @@ export const DATA = [
         textAvatar: '../../assets/bird.png'
       },
       {
-        link: 'Combo Package.png',
+        link: '../images/flight-centre/Soho Hotel Room.jpg',
         id: 3,
         name: 'Flight Centre',
         text: 'Sun City Soho Weekend Rate | 2 Nights at the 4-star Sun City Soho Hotel Week end',
@@ -55,7 +55,7 @@ export const DATA = [
         textAvatar: '../../assets/bird.png'
       },
       {
-        link: 'Deluxe Duo.png',
+        link: '../images/flight-centre/Soho Hotel Pool.jpg',
         id: 4,
         name: 'Flight Centre',
         text: 'Sun City Soho Mid week Rate',
@@ -63,7 +63,7 @@ export const DATA = [
         textAvatar: '../../assets/bird.png'
       },
       {
-        link: 'St Denis.jpg',
+        link: '../images/flight-centre/The Palace of the Lost City.jpg',
         id: 5,
         name: 'Flight Centre',
         text: 'The Palace of the Lost City - Mid Week',
@@ -71,7 +71,7 @@ export const DATA = [
         textAvatar: '../../assets/bird.png'
       },
       {
-        link: 'Twice as nice.jpg',
+        link: '../images/flight-centre/The Palace of the Lost City golf course.jpg',
         id: 6,
         name: 'Flight Centre',
         text: 'The Palace of the Lost City - Weekend Stay',
@@ -79,7 +79,7 @@ export const DATA = [
         textAvatar: '../../assets/bird.png'
       },
       {
-        link: 'Twice as nice.jpg',
+        link: '../images/flight-centre/oyster-box-umhlanga-rocks.jpg',
         id: 7,
         name: 'Flight Centre',
         text: 'The Oyster Box Hotel - Umhlanga',
@@ -87,7 +87,7 @@ export const DATA = [
         textAvatar: '../../assets/bird.png'
       },
       {
-        link: 'Twice as nice.jpg',
+        link: '../images/flight-centre/12 Apostles Hotel Dining 2.jpg',
         id: 8,
         name: 'Flight Centre',
         text: 'The 12 Apostles Hotel & Spa',
@@ -95,7 +95,7 @@ export const DATA = [
         textAvatar: '../../assets/bird.png'
       },
       {
-        link: 'Twice as nice.jpg',
+        link: '../images/flight-centre/Mabula Game viewing 2.jpg',
         id: 9,
         name: 'Flight Centre',
         text: 'Mabula Game Lodge',
@@ -103,7 +103,7 @@ export const DATA = [
         textAvatar: '../../assets/bird.png'
       },
       {
-        link: 'Twice as nice.jpg',
+        link: '../images/flight-centre/Beverley Hills Pool.jpg',
         id: 10,
         name: 'Flight Centre',
         text: 'The Beverly Hills Hotel - Umhlanga',
