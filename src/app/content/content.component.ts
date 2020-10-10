@@ -36,9 +36,15 @@ export class ContentComponent extends ResponsiveBaseComponent
 
     this.router.events.subscribe(route => {
       if (route instanceof NavigationEnd) {
-        this.clientData = this.filter();
-        this.isSubProduct = false;
-        this.text = 'partners';
+        if (route.url.includes('flight-centre')) {
+          this.clientData = this.filterSubProduct();
+          this.isSubProduct = true;
+          this.text = 'options';
+        } else {
+          this.clientData = this.filter();
+          this.isSubProduct = false;
+          this.text = 'partners';
+        }
       }
     });
   }
@@ -77,6 +83,7 @@ export class ContentComponent extends ResponsiveBaseComponent
           link: client['link'],
           logo: client['logo'],
           name: client['name'],
+          id: client['id'],
           url: client['url'],
           bodyText: getBodyText(client['name']),
           buttonText: 'Close'

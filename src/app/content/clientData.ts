@@ -26,6 +26,93 @@ export const DATA = [
     ],
   },
   {
+    key: 'travel',
+    slogan: '',
+    background: 'images/travel-main.jpg',
+    clients: [
+      {
+        link: 'Best of Both.png',
+        id: 1,
+        name: 'Flight Centre',
+        text: 'Sun City Cabanas Weekend Rate | 2 Nights at the 3-star Sun City Cabanas Hotel - Weekend',
+        pdf: '',
+        textAvatar: '../../assets/bird.png'
+      },
+      {
+        link: 'Cape Town.jpg',
+        id: 2,
+        name: 'Flight Centre',
+        text: 'Sun City Cabanas Mid-week rate | 2 Nights at the 3-star Sun City Cabanas Hotel mid-week',
+        pdf: '',
+        textAvatar: '../../assets/bird.png'
+      },
+      {
+        link: 'Combo Package.png',
+        id: 3,
+        name: 'Flight Centre',
+        text: 'Sun City Soho Weekend Rate | 2 Nights at the 4-star Sun City Soho Hotel Week end',
+        pdf: '',
+        textAvatar: '../../assets/bird.png'
+      },
+      {
+        link: 'Deluxe Duo.png',
+        id: 4,
+        name: 'Flight Centre',
+        text: 'Sun City Soho Mid week Rate',
+        pdf: '',
+        textAvatar: '../../assets/bird.png'
+      },
+      {
+        link: 'St Denis.jpg',
+        id: 5,
+        name: 'Flight Centre',
+        text: 'The Palace of the Lost City - Mid Week',
+        pdf: '', 
+        textAvatar: '../../assets/bird.png'
+      },
+      {
+        link: 'Twice as nice.jpg',
+        id: 6,
+        name: 'Flight Centre',
+        text: 'The Palace of the Lost City - Weekend Stay',
+        pdf: '',
+        textAvatar: '../../assets/bird.png'
+      },
+      {
+        link: 'Twice as nice.jpg',
+        id: 7,
+        name: 'Flight Centre',
+        text: 'The Oyster Box Hotel - Umhlanga',
+        pdf: '',
+        textAvatar: '../../assets/bird.png'
+      },
+      {
+        link: 'Twice as nice.jpg',
+        id: 8,
+        name: 'Flight Centre',
+        text: 'The 12 Apostles Hotel & Spa',
+        pdf: '',
+        textAvatar: '../../assets/bird.png'
+      },
+      {
+        link: 'Twice as nice.jpg',
+        id: 9,
+        name: 'Flight Centre',
+        text: 'Mabula Game Lodge',
+        pdf: '',
+        textAvatar: '../../assets/bird.png'
+      },
+      {
+        link: 'Twice as nice.jpg',
+        id: 10,
+        name: 'Flight Centre',
+        text: 'The Beverly Hills Hotel - Umhlanga',
+        pdf: '',
+        textAvatar: '../../assets/bird.png'
+      }
+    ]
+  },
+  {
     key: 'accommodation',
     slogan: '',
     background: 'images/accommodation-main.jpg',
