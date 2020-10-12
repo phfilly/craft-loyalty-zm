@@ -11,8 +11,8 @@
 }
 
 .client-images, .client-images ~ p {
-  max-width: 330px;
-  height: 125px;
+  max-width: 350px;
+  height: 135px;
   text-align: center;
 }
 
