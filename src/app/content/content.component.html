@@ -9,18 +9,27 @@
     <p class="center-align"><i>Use your Mastercard and qualify for amazing discounts. Click on the {{ text }} below for more information on the offer</i></p>
     <div class="client-container" [ngClass]="{'client-container-mobile': isMobileView }">
       <ng-container>
-        <div *ngFor="let client of clientData" (click)="open(client)">
+        <div *ngFor="let client of clientData" (click)="open(client)" [ngClass]="{'mobile-layout': isMobileView }">
           <div>
-            <img [src]="'../../assets/logos/' + client['link']" class="client-images"/>
+            <div [ngStyle]="{'background-image': 'url(../assets/' + client.link + ')'}" class="offer-image"></div>
           </div>
           <div class="offer-content">
             <div *ngIf="client.name === 'Flight Centre'" class="offer-title">
               {{ client['title'] }}
+              <div class="price" *ngIf="client.specialPrice && !isMobileView">
+                R{{ client['specialPrice'] }}
+              </div>
             </div>
+            <br>
             <div *ngIf="(titleName === 'accommodation' || titleName === 'dining') && client.name" class="offer-title">
               {{ client['name'] }}
             </div>
             {{ client['text'] }}
+            <br><br>
+            <button mat-raised-button color="primary" class="more-info">More info</button>
+            <div class="price-mobile" *ngIf="client.specialPrice && isMobileView">
+              R{{ client['specialPrice'] }}
+            </div>
           </div>
         </div>
       </ng-container>

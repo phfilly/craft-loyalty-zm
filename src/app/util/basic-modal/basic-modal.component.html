@@ -1,7 +1,8 @@
 <h2 mat-dialog-title>{{data.headingText}}</h2>
 <mat-dialog-content class="mat-typography">
   <div style="text-align: center;">
-    <img [src]="'../../assets/logos/' + data['link']" class="client-images"/>
+    <img *ngIf="data['name'] === 'Flight Centre' && data['id']" [src]="'../../assets/' + data['link']" class="client-images"/>
+    <img *ngIf="data['name'] === 'Flight Centre' && !data['id']" [src]="'../../assets/logos/' + data['link']" class="client-images"/>
   </div>
 
   <div *ngIf="data['name'] === 'Cruises'">
