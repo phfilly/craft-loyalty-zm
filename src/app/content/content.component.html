@@ -13,23 +13,30 @@
           <div>
             <div [ngStyle]="{'background-image': 'url(../assets/' + client.link + ')'}" class="offer-image"></div>
           </div>
-          <div class="offer-content">
+          <div class="offer-content" [ngClass]="{'offer-content-mobile': isMobileView }">
             <div *ngIf="client.name === 'Flight Centre'" class="offer-title">
               {{ client['title'] }}
               <div class="price" *ngIf="client.specialPrice && !isMobileView">
                 R{{ client['specialPrice'] }}
               </div>
             </div>
-            <br>
             <div *ngIf="(titleName === 'accommodation' || titleName === 'dining') && client.name" class="offer-title">
               {{ client['name'] }}
             </div>
-            {{ client['text'] }}
-            <br><br>
-            <button mat-raised-button color="primary" class="more-info">More info</button>
-            <div class="price-mobile" *ngIf="client.specialPrice && isMobileView">
-              R{{ client['specialPrice'] }}
+            <div *ngIf="!client.includes">
+              {{ client['text'] }}
             </div>
+            <div *ngIf="client.includes">
+              <div class="price-mobile" *ngIf="client.specialPrice && isMobileView">
+                R{{ client['specialPrice'] }}
+              </div>
+              <h3>Includes</h3>
+              <ul>
+                <li *ngFor="let item of client.includes">{{ item }}</li>
+              </ul>
+            </div>
+            <br>
+            <button mat-raised-button color="primary" [ngClass]="{'more-info': !isMobileView }">More info</button>
           </div>
         </div>
       </ng-container>

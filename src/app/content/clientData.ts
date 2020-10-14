@@ -40,7 +40,8 @@ export const DATA = [
         pdf: '',
         textAvatar: '../../assets/bird.png',
         price: 2025,
-        specialPrice: 2685
+        specialPrice: 2685,
+        includes: ['2 Nights at the 3-star Sun City Cabanas Hotel - Weekend', 'Standard Twin Room', 'Breakfast daily']
       },
       {
         link: 'images/flight-centre/sc-pool.jpg',
@@ -51,7 +52,8 @@ export const DATA = [
         pdf: '',
         textAvatar: '../../assets/bird.png',
         price: 1460,
-        specialPrice: 2225
+        specialPrice: 2225,
+        includes: ['2 Nights at the 3-star Sun City Cabanas Hotel - mid-week', 'Standard Twin Room', 'Breakfast daily']
       },
       {
         link: 'images/flight-centre/sh-hotel-room.jpg',
@@ -62,7 +64,8 @@ export const DATA = [
         pdf: '',
         textAvatar: '../../assets/bird.png',
         price: 2450,
-        specialPrice: 4055
+        specialPrice: 4055,
+        includes: ['2 Nights at the 4-star Sun City Soho Hotel Week end', 'Standard Luxury Twin Room', 'Breakfast daily', 'Complimentary entry into the valley of Waves and shuttle services within the resort']
       },
       {
         link: 'images/flight-centre/sh-room.jpg',
@@ -73,7 +76,8 @@ export const DATA = [
         pdf: '',
         textAvatar: '../../assets/bird.png',
         price: 2215,
-        specialPrice: 4055
+        specialPrice: 4055,
+        includes: ['2 Nights at the 4-star Sun City Soho Hotel Midweek stay', 'Standard Luxury Twin Room', 'Breakfast daily', 'Complimentary entry into the valley of Waves and shuttle services within the resort']
       },
       {
         link: 'images/flight-centre/lost-city-pool.jpg',
@@ -84,7 +88,8 @@ export const DATA = [
         pdf: '', 
         textAvatar: '../../assets/bird.png',
         price: 3165,
-        specialPrice: 6475
+        specialPrice: 6475,
+        includes: ['2 Nights Midweek stay', 'Breakfast daily']
       },
       {
         link: 'images/flight-centre/lost-city-golf.jpg',
@@ -95,7 +100,8 @@ export const DATA = [
         pdf: '',
         textAvatar: '../../assets/bird.png',
         price: 3540,
-        specialPrice: 6475
+        specialPrice: 6475,
+        includes: ['2 Nights Midweek stay', 'Breakfast daily']
       },
       {
         link: 'images/flight-centre/oyster-box-umhlanga-rocks.jpg',
@@ -106,7 +112,8 @@ export const DATA = [
         pdf: '',
         textAvatar: '../../assets/bird.png',
         price: 4780,
-        specialPrice: 8245
+        specialPrice: 8245,
+        includes: ['3 nights\' accommodation at the 5-star Oyster Box Hotel in a Garden Villa Loft', 'Breakfast daily']
       },
       {
         link: 'images/flight-centre/12-apostles.jpg',
@@ -117,7 +124,8 @@ export const DATA = [
         pdf: '',
         textAvatar: '../../assets/bird.png',
         price: 4780,
-        specialPrice: 8245
+        specialPrice: 8245,
+        includes: ['3 nights\' accommodation at the 5-star 12 Apostles Hotel & Spa in a Classic Room', 'Breakfast daily', 'BONUS: Complimentary scheduled transfers to the V&A Waterfront']
       },
       {
         link: 'images/flight-centre/mabula.jpg',
@@ -128,7 +136,8 @@ export const DATA = [
         pdf: '',
         textAvatar: '../../assets/bird.png',
         price: 3960,
-        specialPrice: 4855
+        specialPrice: 4855,
+        includes: ['2 nights accommodation', 'Extras: Full Board, 2 x Game Drives per person per day']
       },
       {
         link: 'images/flight-centre/Beverley-Hills-Pool.jpg',
@@ -139,7 +148,8 @@ export const DATA = [
         pdf: '',
         textAvatar: '../../assets/bird.png',
         price: 3305,
-        specialPrice: 5025
+        specialPrice: 5025,
+        includes: ['3 Nights', 'Breakfast daily']
       }
     ]
   },
