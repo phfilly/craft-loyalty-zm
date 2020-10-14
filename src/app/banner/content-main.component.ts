@@ -17,6 +17,7 @@ export class ContentMainComponent extends ResponsiveBaseComponent
   @Input() background: string;
   @Input() class: string;
   @Input() extraClass: string;
+  @Input() isSubProduct: boolean = false;
 
   constructor(
     public breakpointObserver: BreakpointObserver,

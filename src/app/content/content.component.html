@@ -2,6 +2,7 @@
   <app-content-main
   [title]="titleName"
   [background]="background"
+  [isSubProduct]="isSubProduct"
   class="white-text sub-page-title"></app-content-main>
 
   <div class="container">
@@ -9,11 +10,18 @@
     <div class="client-container" [ngClass]="{'client-container-mobile': isMobileView }">
       <ng-container>
         <div *ngFor="let client of clientData" (click)="open(client)">
-          <p *ngIf="(titleName === 'accommodation' || titleName === 'dining') && client.name" class="title">{{ client['name'] }}</p>
-          <img [src]="'../../assets/logos/' + client['link']" class="client-images"/>
-            <p>
-              {{ client['text'] }}
-            </p>
+          <div>
+            <img [src]="'../../assets/logos/' + client['link']" class="client-images"/>
+          </div>
+          <div class="offer-content">
+            <div *ngIf="client.name === 'Flight Centre'" class="offer-title">
+              {{ client['title'] }}
+            </div>
+            <div *ngIf="(titleName === 'accommodation' || titleName === 'dining') && client.name" class="offer-title">
+              {{ client['name'] }}
+            </div>
+            {{ client['text'] }}
+          </div>
         </div>
       </ng-container>
     </div>

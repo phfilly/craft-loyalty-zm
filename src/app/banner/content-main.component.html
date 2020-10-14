@@ -1,4 +1,4 @@
-<div class="slider-background"
+<div *ngIf="!isSubProduct; else subProduct" class="slider-background"
   [ngClass]="{'slider-background-mobile': isMobileView }"
   [ngStyle]="{'background-image': 'url(' + bgUrl + ')'}">
   <div class="slider-background-text">
@@ -6,6 +6,12 @@
     <h3 class="slogan">{{ slogan }}</h3>
   </div>
 </div>
+
+<ng-template #subProduct>
+  <div class="slider-background-text">
+    <img [src]="bgUrl" class="logo">
+  </div>
+</ng-template>
 
 <div class="menu-container main-container">
   <div class="menu-items" [ngClass]="{'center-align': isMobileView }">

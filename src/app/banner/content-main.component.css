@@ -51,3 +51,8 @@
   background-color: #6E6B60;
   height: 5px;
 }
+
+.logo {
+  max-width: 250px;
+  padding: 100px 0px;
+}

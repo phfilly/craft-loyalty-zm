@@ -39,6 +39,7 @@ export class ContentComponent extends ResponsiveBaseComponent
         if (route.url.includes('flight-centre')) {
           this.clientData = this.filterSubProduct();
           this.isSubProduct = true;
+          this.background = this.data.filter(item => item['key'] === this.titleName)[1]['logo'];
           this.text = 'options';
         } else {
           this.clientData = this.filter();

@@ -20,13 +20,23 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
   text-align: center;
 }
 
 .client-container > div {
   margin: 15px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.offer-content {
+  padding: 10px;
+  text-align: left;
 }
 
 .client-container > div:hover {
@@ -44,6 +54,10 @@
   margin: 5px;
 }
 
-.title {
+.title, .offer-title {
   font-weight: 600;
+}
+
+.offer-title {
+  text-align: left;
 }

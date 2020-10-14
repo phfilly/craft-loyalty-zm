@@ -29,86 +29,117 @@ export const DATA = [
     key: 'travel',
     slogan: '',
     background: 'images/travel-main.jpg',
+    logo: 'FC-logo.png',
     clients: [
       {
         link: '../images/flight-centre/Sun City Cabanas.jpg',
         id: 1,
         name: 'Flight Centre',
-        text: 'Sun City Cabanas Weekend Rate | 2 Nights at the 3-star Sun City Cabanas Hotel',
+        title: 'Sun City Cabanas Weekend Rate',
+        text: '2 Nights at the 3-star Sun City Cabanas Hotel',
         pdf: '',
-        textAvatar: '../../assets/bird.png'
+        textAvatar: '../../assets/bird.png',
+        price: 2025,
+        specialPrice: 2685
       },
       {
         link: '../images/flight-centre/Sun City Cabanas pool 2.jpg',
         id: 2,
         name: 'Flight Centre',
-        text: 'Sun City Cabanas mid-week rate | 2 Nights at the 3-star Sun City Cabanas Hotel',
+        title: 'Sun City Cabanas mid-week rate',
+        text: '2 Nights at the 3-star Sun City Cabanas Hotel',
         pdf: '',
-        textAvatar: '../../assets/bird.png'
+        textAvatar: '../../assets/bird.png',
+        price: 1460,
+        specialPrice: 2225
       },
       {
         link: '../images/flight-centre/Soho Hotel Room.jpg',
         id: 3,
         name: 'Flight Centre',
-        text: 'Sun City Soho Weekend Rate | 2 Nights at the 4-star Sun City Soho Hotel',
+        title: 'Sun City Soho Weekend',
+        text: '2 Nights at the 4-star Sun City Soho Hotel',
         pdf: '',
-        textAvatar: '../../assets/bird.png'
+        textAvatar: '../../assets/bird.png',
+        price: 2450,
+        specialPrice: 4055
       },
       {
         link: '../images/flight-centre/Soho Hotel Pool.jpg',
         id: 4,
         name: 'Flight Centre',
-        text: 'Sun City Soho Mid week Rate | 2 Nights at the 4-star Sun City Soho Hotel',
+        title: 'Sun City Soho Mid week Rate',
+        text: '2 Nights at the 4-star Sun City Soho Hotel',
         pdf: '',
-        textAvatar: '../../assets/bird.png'
+        textAvatar: '../../assets/bird.png',
+        price: 2215,
+        specialPrice: 4055
       },
       {
         link: '../images/flight-centre/The Palace of the Lost City.jpg',
         id: 5,
         name: 'Flight Centre',
-        text: 'The Palace of the Lost City | 2 Nights - Mid Week',
+        title: 'The Palace of the Lost City',
+        text: '2 Nights - Mid Week',
         pdf: '', 
-        textAvatar: '../../assets/bird.png'
+        textAvatar: '../../assets/bird.png',
+        price: 3165,
+        specialPrice: 6475
       },
       {
         link: '../images/flight-centre/The Palace of the Lost City golf course.jpg',
         id: 6,
         name: 'Flight Centre',
-        text: 'The Palace of the Lost City | 2 Nights - Weekend stay',
+        title: 'The Palace of the Lost City',
+        text: '2 Nights - Weekend stay',
         pdf: '',
-        textAvatar: '../../assets/bird.png'
+        textAvatar: '../../assets/bird.png',
+        price: 3540,
+        specialPrice: 6475
       },
       {
         link: '../images/flight-centre/oyster-box-umhlanga-rocks.jpg',
         id: 7,
         name: 'Flight Centre',
-        text: 'The Oyster Box Hotel - Umhlanga | 3 nights\' accommodation at the 5-star Oyster Box Hotel in a Garden Villa Loft',
+        title: 'The Oyster Box Hotel - Umhlanga',
+        text: ' 3 nights\' accommodation at the 5-star Oyster Box Hotel in a Garden Villa Loft',
         pdf: '',
-        textAvatar: '../../assets/bird.png'
+        textAvatar: '../../assets/bird.png',
+        price: 4780,
+        specialPrice: 8245
       },
       {
         link: '../images/flight-centre/12 Apostles Hotel Dining 2.jpg',
         id: 8,
         name: 'Flight Centre',
-        text: 'The 12 Apostles Hotel & Spa | 3 nights\' accommodation at the 5-star 12 Apostles Hotel & Spa in a Classic Room',
+        title: 'The 12 Apostles Hotel & Spa',
+        text: ' 3 nights\' accommodation at the 5-star 12 Apostles Hotel & Spa in a Classic Room',
         pdf: '',
-        textAvatar: '../../assets/bird.png'
+        textAvatar: '../../assets/bird.png',
+        price: 4780,
+        specialPrice: 8245
       },
       {
         link: '../images/flight-centre/Mabula Game viewing 2.jpg',
         id: 9,
         name: 'Flight Centre',
-        text: 'Mabula Game Lodge | 2 Nights',
+        title: 'Mabula Game Lodge',
+        text: '2 Nights',
         pdf: '',
-        textAvatar: '../../assets/bird.png'
+        textAvatar: '../../assets/bird.png',
+        price: 3960,
+        specialPrice: 4855
       },
       {
         link: '../images/flight-centre/Beverley Hills Pool.jpg',
         id: 10,
         name: 'Flight Centre',
-        text: 'The Beverly Hills Hotel - Umhlanga | 3 Nights',
+        title: 'The Beverly Hills Hotel - Umhlanga',
+        text: '3 Nights',
         pdf: '',
-        textAvatar: '../../assets/bird.png'
+        textAvatar: '../../assets/bird.png',
+        price: 3305,
+        specialPrice: 5025
       }
     ]
   },
