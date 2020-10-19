@@ -81,11 +81,7 @@ export class ContentComponent extends ResponsiveBaseComponent
         autoFocus: true,
         data: {
           headingText: '',
-          link: client['link'],
-          logo: client['logo'],
-          name: client['name'],
-          id: client['id'],
-          url: client['url'],
+          ...client,
           bodyText: getBodyText(client['name']),
           buttonText: 'Close'
         }
