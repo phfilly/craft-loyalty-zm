@@ -185,11 +185,10 @@ export const DATA = [
         textAvatar: '../../assets/bird.png',
         price: 25820,
         specialPrice: 12690,
-        includes: ['Package is quoted per person sharing', 
+        includes: ['Package is quoted per person sharing' 
         ,'Panoramic size windows'
         ,'On board entertainment (TV monitors in room enabling guests to watch movies, selection of music channels and radio stations to listen to etc'
-        ,'All meals on board'
-        ,'All drinks including alcoholic drinks'
+        ,'All meals on board & All drinks including alcoholic drinks'
         ,'Off board excursions'
         ,'3 day Journey from Cape Town to Pretoria or reverse'
         ]
