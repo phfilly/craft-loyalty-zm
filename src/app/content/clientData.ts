@@ -152,7 +152,7 @@ export const DATA = [
         includes: ['Package is quoted per person sharing', '3 Nights', 'Breakfast daily']
       },
       {
-        link: 'images/flight-centre/Beverley-Hills-Pool.jpg',
+        link: 'images/flight-centre/WildCoastHotel2.jpg',
         id: 11,
         name: 'Flight Centre',
         title: 'Wild Coast Sun Hotel',
@@ -164,7 +164,7 @@ export const DATA = [
         includes: ['Package is quoted per person sharing', '3 nights\' midweek accommodation at the 4-star Wild Coast Sun Hotel in a Garden Facing Luxury King Room', 'UPGRADE 3 nights\' weekend accommodation from R2350 per person sharing',  'Breakfast daily']
       },
       {
-        link: 'images/flight-centre/Beverley-Hills-Pool.jpg',
+        link: 'images/flight-centre/WildCoastHotel.jpg',
         id: 12,
         name: 'Flight Centre',
         title: 'Wild Coast Sun Hotel',
@@ -174,24 +174,6 @@ export const DATA = [
         price: 4355,
         specialPrice: 2350,
         includes: ['Package is quoted per person sharing','3 nights\' midweek accommodation at the 4-star Wild Coast Sun Hotel in a Garden Facing Luxury King Room', 'Breakfast daily']
-      },
-      {
-        link: 'images/flight-centre/Beverley-Hills-Pool.jpg',
-        id: 13,
-        name: 'Flight Centre',
-        title: 'Blue Train',
-        text: '2 night stay',
-        pdf: '',
-        textAvatar: '../../assets/bird.png',
-        price: 25820,
-        specialPrice: 12690,
-        includes: ['Package is quoted per person sharing' 
-        ,'Panoramic size windows'
-        ,'On board entertainment (TV monitors in room enabling guests to watch movies, selection of music channels and radio stations to listen to etc'
-        ,'All meals on board & All drinks including alcoholic drinks'
-        ,'Off board excursions'
-        ,'3 day Journey from Cape Town to Pretoria or reverse'
-        ]
       }
     ]
   },
