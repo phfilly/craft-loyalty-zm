@@ -32,6 +32,16 @@ export const DATA = [
     logo: 'FC-logo.png',
     clients: [
       {
+        link: 'images/Flight_Centre_RZ.jpg',
+        name: 'Flight Centre',
+        title: 'Pay with your Mastercard',
+        text: 'Pay with your Mastercard and get 5% off any package or flight',
+        pdf: '',
+        textAvatar: '../../assets/bird.png',
+        price: 0,
+        specialPrice: 0
+      },
+      {
         link: 'images/flight-centre/sc.jpg',
         id: 1,
         name: 'Flight Centre',
