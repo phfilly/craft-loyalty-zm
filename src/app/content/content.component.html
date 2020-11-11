@@ -6,7 +6,7 @@
   class="white-text sub-page-title"></app-content-main>
 
   <div class="container">
-    <p class="center-align"><i>Use your Mastercard and qualify for amazing discounts. Click on the {{ text }} below for more information on the offer</i></p>
+    <p class="center-align"><i>Use your Mastercard and qualify for amazing discounts. Click on the {{ text }} below for more information on the offer. Use your Mastercard and qualify for amazing discounts. Call <a href="tel:0113915552" title="call us">011 391 5552</a> to make your booking.</i></p>
     <div class="client-container" [ngClass]="{'client-container-mobile': isMobileView }">
       <ng-container>
         <div *ngFor="let client of clientData" (click)="open(client)" [ngClass]="{'mobile-layout': isMobileView }">
