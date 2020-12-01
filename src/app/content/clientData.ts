@@ -11,12 +11,12 @@ export const DATA = [
           'Pay with your Mastercard and get 10% discount on cabin cost only for any 7 night and longer sailings onboard Royal Caribbean International, Celebrity Cruises & Azamara bookings',
         url: 'https://www.cruises.co.za/',
       },
-      {
-        link: 'logos/Flight_Centre.jpg',
-        name: 'Flight Centre',
-        text: 'Pay with your Mastercard and get 5% off any package or flight',
-        url: 'https://www.flightcentre.co.za/',
-      },
+      // {
+      //   link: 'logos/Flight_Centre.jpg',
+      //   name: 'Flight Centre',
+      //   text: 'Pay with your Mastercard and get 5% off any package or flight',
+      //   url: 'https://www.flightcentre.co.za/',
+      // },
       {
         link: 'logos/health-spa-logo.jpg',
         name: 'Health Spas',
